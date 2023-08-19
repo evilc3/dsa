@@ -1,0 +1,26 @@
+brightness is full
+
+GPU : Standard Mode
+
+windows : 54 - 60  gpu is standard. spins fan at 2400 rpm, but when tmp does above 60
+silent  : 65 gpu is standard.  doesnt spin fan
+performance : 55 - 60, spins fan at 2400 rpm, fan is always on. 
+turbo : 50, spins fan at 3200 rpm, fan is always on. 
+
+
+GPU : ECO Mode uses Igpu 
+
+windows : 48-49 fan is off.
+silent  : 49-51 fan is off.
+performance : 51-54 max 55, spins fan at 0 rpm.
+turbo : 45-47, spins fan at 3200 rpm, fan is always on. 
+
+GPU : optimed Mode uses Igpu 
+
+windows : 47-49 fan is off.
+silent  : 46-47 max 50 fan is off.
+performance : 51 - 55 max, spins fan at 0 rpm.
+turbo : 
+
+increasing  decreasing battery doesnt do anything to temterature.
+lowest tmp is 47
