@@ -1,0 +1,107 @@
+Time and Space Complexity: https://www.youtube.com/watch?v=mV3wrLBbuuE&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=24&pp=iAQB
+
+
+#### Required Section
+
+Problems to concentrate on
+1. Pattern Problems
+2. Math Problems
+3. Arrays : striver
+4. Strings : striver
+5. Searching : striver
+	https://www.youtube.com/watch?v=f6UU7V3szVw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=14&pp=iAQB
+6. Sorting:
+	1. Bubble 
+	2. Selection
+	3. Insertion 
+	4. Quick 
+	5. Merge Sort 
+	6. Cycle : https://www.youtube.com/watch?v=f6UU7V3szVw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=14&pp=iAQB
+7. Recursion + Backtracking: Start
+	
+	Different Terms
+	1. Base Case: Used for terminating the recursive call, most probablty the simplest case where recursion doesnt need to be applied to find the answer.
+	2. Direct Recursion: When the recursive function calls itself. (almost all problems solved used this.)
+	3. Indirect Recustion: When the recursive function calls another function which in turn calls the calling funcition. eg.
+
+		function1(params1...)
+			
+			.....
+			function2(param2...)
+			.....
+		
+		function2(params2...)
+			
+			.....
+			function1(param1...)
+			.....
+	4. Tail Recursion: When the recursive call is the last statement, this helps the compiler optimize the the program. eg.
+		       
+			function1(param1...)
+				....
+				....
+				function1(param1...)
+			
+			As its the last statement the compiler doesnt need to keep it in memory and can de-allocate it.
+	
+	
+	5. Non-tail function: eg.  last statement is n * function1(n-1)
+	   These function can be made into tail recursion by adding an answer param.
+	
+	6. Recurrence Relation: way in which the subproblems are divided.
+	
+	7. Recursive step: It divides a big problem into small instances that are solved by the recursive function and later on recombined in the results.
+	
+	
+	1. kunal kushwaria : https://www.youtube.com/watch?v=M2uO2nMT0Bk&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=23&pp=iAQB
+	2. love babbar code : https://www.youtube.com/watch?v=_-2u4EPHD88&list=PLDzeHZWIZsTqBmRGnsCOGNDG5FY0G04Td
+	3. striver : https://www.youtube.com/watch?v=yVdKa8dnKiE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+	4. gfg: Theory : https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/
+	5. InterviewBit and other sources.
+8. Dynamic programming
+	1. love babbar : https://www.youtube.com/watch?v=PGsgv6nXhLw&list=PLDzeHZWIZsTomOPnCiU3J95WufjE36wsb
+	2. striver : https://www.youtube.com/watch?v=tyB0ztf0DNY&list=PLgUwDviBIf0pwFf-BnpkXxs0Ra0eU2sJY&pp=iAQB&pbjreload=102
+	3. other sources
+
+
+This should be enough for data engineering.
+ 
+### Optional Section
+
+9. Other Data Structures
+	1. LinkList: easy, medium and difficult problems  
+	2. Stack: easy, medium, hard problems 
+	3. Queue: easy, medium, hard problems 
+	4. Trees (all trees, binary, BST): easy, medum
+	5. Graph: easy, medium
+	6. Heap: easy, medium
+	7. Trie: easy, medium
+10. Other Algorithems	
+	1. Bit manupilcation
+	2. Greedy Algorithems 
+	3. Divide and Conqure
+	4. others ...
+
+
+Other Resources:
+1. Striver: https://takeuforward.org/
+2. 400+: https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/
+3. Daily Leetcode Problems:
+
+
+Things to do when learning a new pattern.
+1. Save everything in github
+2. Make patters and keywords 
+3. Categorize problems in easy, medium, difficult levels.
+
+
+1. Make a list of common problems
+	1. All problems on subsequence 
+	2. All problems on subarrays (array, string)
+	3. Largest consequitive subsequence.
+
+
+My roadmap
+	1. Finish all the topics in the required section
+
+
